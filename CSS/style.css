@@ -1,4 +1,55 @@
 header{
     text-align: center;
-    font-size: 20px;
+    background-color: darkblue;
+    font-size: 50px;
+    width: 100%;
+    height: 350px;
+    margin: 5px;
+    padding: 1px;
+    display: block;
+
+}
+
+nav{
+    width: 15%;
+    float: right;
+}
+
+nav a{
+    background: rgb(47,170,175);
+    background: linear-gradient(90deg, rgba(47,170,175,1) 20%, rgba(48,66,177,1) 80%);
+    border-radius: 10px 30px 10px 30px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: rgb(47,170,175);
+    background: linear-gradient(90deg, rgba(47,170,175,1) 100%, rgba(48,66,177,1) 100%);
+    color: black;
+}
+
+h2{
+    text-indent: 10px;
+    color: black;
+    width: 85%;
+}
+
+#article1{
+    background-color: bisque;
+    display: block;
+    height: min-content;
+    width: 85%
+}
+article{
+    background-color: bisque;
+    display: block;
+    height: min-content;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid black;
+    
 }
