@@ -23,8 +23,8 @@ nav{
 }
 
 nav a{
-    background: rgb(139,47,201);
-    background: linear-gradient(80deg, rgba(139,47,201,1) 57%, rgba(253,197,0,1) 100%);
+    background: rgb(90,28,108);
+    background: linear-gradient(90deg, rgba(90,28,108,1) 57%, rgba(46,109,28,1) 100%);
     border-radius: 10px 30px 10px 30px;
     color: black;
     width: auto;
@@ -32,14 +32,14 @@ nav a{
     padding: 10px;
     display: flex;
     text-decoration: none;
-    box-shadow:  0px 5px 1px 0 rgba(163, 58, 177, 0.692);
+    box-shadow:  0px 5px 1px 0 #5A1C6C;
 }
 
 nav a:hover{
     background: rgb(47,170,175);
-    background: linear-gradient(90deg, rgba(47,170,175,1) 100%, rgba(48,66,177,1) 100%);
-    color: black;
-    box-shadow:  0px 5px 1px 0 #ffd500;
+    background: #5A1C6C;
+    color: rgba(255, 255, 255, 0.829);
+    box-shadow:  0px 5px 1px 0 #2E6D1C;
 }
 
 h2{
@@ -69,11 +69,12 @@ article a{
 
 .titletuto{
     width: max-content;
-    box-shadow:  0px 5px 1px 0 rgba(163, 58, 177, 0.692);
+    box-shadow:  0px 5px 1px 0 #5A1C6C;
+
 }
 
 body{
-    background: rgb(12,8,29);
+    background: #5A1C6C;
     background: linear-gradient(97deg, rgba(12,8,29,1) 6%, rgba(27,27,32,1) 32%);
     color: rgba(255, 255, 255, 0.829);
 
